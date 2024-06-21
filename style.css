@@ -14,8 +14,14 @@ body {
   background-color: #fff0c5;
   color: #0d3a1f;
 }
-.section-block--small {
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
   padding: 0.25em;
+  background-color: #00112c;
+  color: #cdebdb;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,7 +16,13 @@ body {
     background-color: $light-orange;
     color: $dark-green;
   }
-  &--small {
-    padding: 0.25em;
-  }
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 0.25em;
+  background-color: $dark-blue;
+  color: $light-green;
 }
