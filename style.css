@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+.section-block {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+}
+.section-block--green {
+  background-color: #cdebdb;
+  color: #292f38;
+}
+.section-block--grey {
+  background-color: #f7ead1;
+  color: #0d3a1f;
+}
+.section-block--small {
+  padding: 0.25em;
+}
+
+/*# sourceMappingURL=style.css.map */

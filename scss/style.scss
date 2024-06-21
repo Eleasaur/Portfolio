@@ -1,1 +1,22 @@
-@use "./partials/variables";
+@import "./partials/_variables.scss";
+
+body {
+  margin: 0px;
+}
+
+.section-block {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+
+  &--green {
+    background-color: $light-green;
+    color: $blue-grey;
+  }
+  &--grey {
+    background-color: $light-grey;
+    color: $dark-green;
+  }
+  &--small {
+    padding: 0.25em;
+  }
+}
