@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+.navigation-bar {
+  font-family: "rubik", Helvetica, sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: $dark-blue;
+  color: $light-green;
+  border-bottom: 2px $light-orange solid;
+  &_links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 8px;
+    &_to-sections {
+      color: $light-green;
+      text-decoration: none;
+    }
+  }
+}

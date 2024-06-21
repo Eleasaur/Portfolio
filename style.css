@@ -1,3 +1,25 @@
+.navigation-bar {
+  font-family: "rubik", Helvetica, sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: #00112c;
+  color: #cdebdb;
+  border-bottom: 2px #fff0c5 solid;
+}
+.navigation-bar_links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  column-gap: 8px;
+}
+.navigation-bar_links_to-sections {
+  color: #cdebdb;
+  text-decoration: none;
+}
+
 body {
   margin: 0px;
 }
