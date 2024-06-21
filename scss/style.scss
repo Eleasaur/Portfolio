@@ -5,7 +5,8 @@ body {
 }
 
 .section-block {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Rubik", Helvetica, sans-serif;
+  font-weight: 500;
   padding: 1em;
 
   &--green {
@@ -19,7 +20,7 @@ body {
 }
 
 #footer {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Rubik", Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: end;
