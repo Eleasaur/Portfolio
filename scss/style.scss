@@ -19,10 +19,12 @@ body {
 }
 
 #footer {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: end;
   padding: 0.25em;
+  padding-right: 3em;
   background-color: $dark-blue;
   color: $light-green;
 }
