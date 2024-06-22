@@ -4,7 +4,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5em;
+  align-items: center;
+  height: 7vh;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   background-color: #00112c;
   color: #cdebdb;
   border-bottom: 2px #fff0c5 solid;
@@ -18,6 +21,32 @@
 .navigation-bar_links_to-sections {
   color: #cdebdb;
   text-decoration: none;
+}
+
+.landing-block {
+  font-family: "Rubik", Helvetica, sans-serif;
+  text-align: center;
+  height: 93vh;
+  background: linear-gradient(-45deg, #00112c, #292f38);
+  color: #cdebdb;
+}
+.landing-block_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing-block_container_title {
+  font-size: 3em;
+  background: linear-gradient(to right, #cdebdb, #fff0c5);
+  background-clip: text;
+  color: transparent;
+}
+.landing-block_container_subtitle {
+  background: linear-gradient(to left, #cdebdb, #fff0c5);
+  background-clip: text;
+  color: transparent;
 }
 
 body {
