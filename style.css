@@ -56,11 +56,11 @@
 .landing-block_btn {
   font-family: "rubik", Helvetica, sans-serif;
   font-size: 1.25em;
-  font-weight: 500;
+  font-weight: 400;
   background-color: #00112c;
   color: #cdebdb;
   padding: 0.75em;
-  border: 2px solid #cdebdb;
+  border: 0.1em solid #cdebdb;
   border-radius: 2em;
   margin-top: 0;
 }
