@@ -38,15 +38,20 @@
   align-items: center;
 }
 .landing-block_container_title {
-  font-size: 3em;
+  font-size: 3.5em;
+  font-weight: 600;
   background: linear-gradient(to right, #cdebdb, #fff0c5);
   background-clip: text;
   color: transparent;
+  margin: 1.5%;
 }
 .landing-block_container_subtitle {
+  font-size: 1.5em;
+  font-weight: 500;
   background: linear-gradient(to left, #cdebdb, #fff0c5);
   background-clip: text;
   color: transparent;
+  margin: 1.5%;
 }
 
 body {
