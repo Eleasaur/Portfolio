@@ -27,11 +27,11 @@
   font-family: "Rubik", Helvetica, sans-serif;
   text-align: center;
   height: 93vh;
-  background: linear-gradient(-45deg, #00112c, #292f38);
+  background: linear-gradient(-30deg, #00112c, #292f38);
   color: #cdebdb;
 }
 .landing-block_container {
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,10 +53,16 @@
   color: transparent;
   margin-top: 1.5%;
 }
-.landing-block_container_btn {
+.landing-block_btn {
   font-family: "rubik", Helvetica, sans-serif;
-  background-color: #cdebdb;
-  color: #292f38;
+  font-size: 1.25em;
+  font-weight: 500;
+  background-color: #00112c;
+  color: #cdebdb;
+  padding: 0.75em;
+  border: 2px solid #cdebdb;
+  border-radius: 2em;
+  margin-top: 0;
 }
 
 body {
