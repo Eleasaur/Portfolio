@@ -65,6 +65,22 @@
   margin-top: 0;
 }
 
+.skills-subheading {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 700;
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  column-gap: 1em;
+}
+.languages-list_item {
+  width: 64px;
+  height: auto;
+}
+
 body {
   margin: 0px;
 }
