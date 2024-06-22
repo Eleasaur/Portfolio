@@ -51,7 +51,12 @@
   background: linear-gradient(to left, #cdebdb, #fff0c5);
   background-clip: text;
   color: transparent;
-  margin: 1.5%;
+  margin-top: 1.5%;
+}
+.landing-block_container_btn {
+  font-family: "rubik", Helvetica, sans-serif;
+  background-color: #cdebdb;
+  color: #292f38;
 }
 
 body {

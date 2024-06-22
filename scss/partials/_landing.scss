@@ -26,7 +26,12 @@
       background: linear-gradient(to left, $light-green, $light-orange);
       background-clip: text;
       color: transparent;
-      margin: 1.5%;
+      margin-top: 1.5%;
+    }
+    &_btn {
+      font-family: "rubik", Helvetica, sans-serif;
+      background-color: $light-green;
+      color: $blue-grey;
     }
   }
 }
