@@ -3,6 +3,10 @@
 .project-card {
   display: flex;
   flex-direction: column;
+  &_img {
+    height: 256px;
+    width: 256px;
+  }
   &--left {
     align-items: flex-start;
   }
