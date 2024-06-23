@@ -7,16 +7,17 @@
   align-items: center;
   height: 7vh;
   padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-right: 1em;
   background-color: #00112c;
   color: #cdebdb;
   border-bottom: 2px #fff0c5 solid;
 }
 .navigation-bar_links {
+  font-size: 0.9em;
   display: flex;
   flex-direction: row;
   list-style: none;
-  column-gap: 8px;
+  column-gap: 4px;
 }
 .navigation-bar_links_to-sections {
   color: #cdebdb;
@@ -143,11 +144,43 @@ body {
   color: #0d3a1f;
 }
 
-#footer {
-  font-family: "Rubik", Helvetica, sans-serif;
+.section-block_container {
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width: 385px) {
+  .section-block_container {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .section-block_container {
+    width: 85%;
+  }
+}
+@media screen and (min-width: 820px) {
+  .section-block_container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-block_container {
+    width: 65%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-block_container {
+    width: 60%;
+  }
+}
+.section-block_container--small {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
+}
+
+#footer {
+  font-family: "Rubik", Helvetica, sans-serif;
   padding: 0.25em;
   padding-right: 3em;
   background-color: #00112c;

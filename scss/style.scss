@@ -1,3 +1,4 @@
+@use "./partials/queries.scss" as mix;
 @import "./partials/_variables.scss";
 @import "./partials/navbar.scss";
 @import "./partials/landing.scss";
@@ -24,11 +25,33 @@ body {
   }
 }
 
+.section-block_container {
+  width: 100%;
+  margin: auto;
+  @include mix.phone {
+    width: 95%;
+  }
+  @include mix.small-tablet {
+    width: 85%;
+  }
+  @include mix.tablet {
+    width: 70%;
+  }
+  @include mix.laptop {
+    width: 65%;
+  }
+  @include mix.desktop {
+    width: 60%;
+  }
+  &--small {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
 #footer {
   font-family: "Rubik", Helvetica, sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
   padding: 0.25em;
   padding-right: 3em;
   background-color: $dark-blue;
