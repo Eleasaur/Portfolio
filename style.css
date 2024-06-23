@@ -117,6 +117,13 @@
   height: 32px;
   width: auto;
 }
+.contact-link_text {
+  text-decoration: dashed;
+  color: #292f38;
+}
+.contact-link_text:hover {
+  color: #00112c;
+}
 
 body {
   margin: 0px;

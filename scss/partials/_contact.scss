@@ -10,4 +10,11 @@
     height: 32px;
     width: auto;
   }
+  &_text {
+    text-decoration: dashed;
+    color: $blue-grey;
+    &:hover {
+      color: $dark-blue;
+    }
+  }
 }
