@@ -30,7 +30,7 @@
   height: 93vh;
   background: linear-gradient(-30deg, #00112c, #292f38);
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 20s ease infinite;
   color: #cdebdb;
 }
 @keyframes gradient {
