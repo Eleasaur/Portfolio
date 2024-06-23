@@ -106,6 +106,18 @@
   align-items: flex-end;
 }
 
+.contact-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+  column-gap: 5px;
+}
+.contact-link_img {
+  height: 32px;
+  width: auto;
+}
+
 body {
   margin: 0px;
 }
