@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+.contact-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+  column-gap: 5px;
+  &_img {
+    height: 32px;
+    width: auto;
+  }
+  &_text {
+    text-decoration: dashed;
+    color: $blue-grey;
+    &:hover {
+      color: $dark-blue;
+    }
+  }
+}
