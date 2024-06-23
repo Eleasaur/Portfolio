@@ -144,6 +144,10 @@
   color: #00112c;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
 }

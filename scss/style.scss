@@ -6,6 +6,10 @@
 @import "./partials/projects.scss";
 @import "./partials/contact.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
 }
