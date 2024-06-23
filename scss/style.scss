@@ -1,3 +1,4 @@
+@use "./partials/queries.scss" as mix;
 @import "./partials/_variables.scss";
 @import "./partials/navbar.scss";
 @import "./partials/landing.scss";
@@ -21,6 +22,26 @@ body {
   &--grey {
     background-color: $light-orange;
     color: $dark-green;
+  }
+}
+
+.section-block_container {
+  width: 100%;
+  margin: auto;
+  @include mix.phone {
+    width: 95%;
+  }
+  @include mix.small-tablet {
+    width: 85%;
+  }
+  @include mix.tablet {
+    width: 70%;
+  }
+  @include mix.laptop {
+    width: 65%;
+  }
+  @include mix.desktop {
+    width: 60%;
   }
 }
 

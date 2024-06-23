@@ -6,14 +6,14 @@
   justify-content: space-between;
   align-items: center;
   height: 7vh;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
+  padding-left: 0.5em;
+  padding-right: 1em;
   background-color: #00112c;
   color: #cdebdb;
   border-bottom: 2px #fff0c5 solid;
 }
 .navigation-bar_links {
-  font-size: 0.8em;
+  font-size: 0.9em;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -142,6 +142,36 @@ body {
 .section-block--grey {
   background-color: #fff0c5;
   color: #0d3a1f;
+}
+
+.section-block_container {
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width: 385px) {
+  .section-block_container {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .section-block_container {
+    width: 85%;
+  }
+}
+@media screen and (min-width: 820px) {
+  .section-block_container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-block_container {
+    width: 65%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-block_container {
+    width: 60%;
+  }
 }
 
 #footer {
