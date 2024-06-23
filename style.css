@@ -89,6 +89,16 @@
   height: 256px;
   width: 256px;
 }
+.project-card-link-container {
+  display: flex;
+  padding-top: 0.5em;
+  column-gap: 1em;
+}
+.project-card_link_img {
+  height: 32px;
+  width: auto;
+  text-decoration: none;
+}
 .project-card--left {
   align-items: flex-start;
 }
