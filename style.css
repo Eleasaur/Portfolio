@@ -6,17 +6,18 @@
   justify-content: space-between;
   align-items: center;
   height: 7vh;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
   background-color: #00112c;
   color: #cdebdb;
   border-bottom: 2px #fff0c5 solid;
 }
 .navigation-bar_links {
+  font-size: 0.8em;
   display: flex;
   flex-direction: row;
   list-style: none;
-  column-gap: 8px;
+  column-gap: 4px;
 }
 .navigation-bar_links_to-sections {
   color: #cdebdb;
