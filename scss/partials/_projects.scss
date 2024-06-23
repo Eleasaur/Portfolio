@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  &_img {
+    height: 256px;
+    width: 256px;
+  }
+  &-link-container {
+    display: flex;
+    padding-top: 0.5em;
+    column-gap: 1em;
+  }
+  &_link_img {
+    height: 32px;
+    width: auto;
+    text-decoration: none;
+  }
+  &--left {
+    align-items: flex-start;
+  }
+  &--right {
+    align-items: flex-end;
+  }
+}
