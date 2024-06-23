@@ -81,6 +81,17 @@
   height: auto;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+.project-card--left {
+  align-items: flex-start;
+}
+.project-card--right {
+  align-items: flex-end;
+}
+
 body {
   margin: 0px;
 }

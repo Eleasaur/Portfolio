@@ -1,0 +1,12 @@
+@import "./variables.scss";
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  &--left {
+    align-items: flex-start;
+  }
+  &--right {
+    align-items: flex-end;
+  }
+}
