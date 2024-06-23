@@ -43,13 +43,15 @@ body {
   @include mix.desktop {
     width: 60%;
   }
+  &--small {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 
 #footer {
   font-family: "Rubik", Helvetica, sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
   padding: 0.25em;
   padding-right: 3em;
   background-color: $dark-blue;
