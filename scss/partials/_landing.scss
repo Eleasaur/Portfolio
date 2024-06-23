@@ -6,7 +6,10 @@
   height: 93vh;
   background: linear-gradient(-30deg, $dark-blue, $blue-grey);
   background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
+  animation-name: gradient;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
   color: $light-green;
   @keyframes gradient {
     0% {
