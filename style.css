@@ -29,7 +29,20 @@
   text-align: center;
   height: 93vh;
   background: linear-gradient(-30deg, #00112c, #292f38);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
   color: #cdebdb;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .landing-block_container {
   height: 90%;
